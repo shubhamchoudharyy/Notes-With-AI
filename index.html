@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1><img src="notes.webp" alt="notes">Notes</h1>
+        <button class="btn"><img src="edit.webp" alt="create">Create Notes</button>
+
+        <div class="notes-container">
+            <!-- <p contenteditable="true" class="input-box">
+                <img src="" alt="delete">
+            </p> -->
+        </div>
+    </div>
+
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined"><img  class="img1" src="comment.webp" alt="comment"></span>
+        <span class="material-symbols-outlined"><img class="img1" src="cross.webp" alt="close"></span>
+
+    </button>
+
+
+
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class=" close-btn material-symbols-outlined"><img class="img1" src="cross.webp" alt="close"></span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined"><img class="img2" src="bot.webp" alt=""></i></span>
+                <p>Hi there 👋 <br> How can I help you today?</p>
+            </li>
+            
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+            <span id="send-btn" class="material-symbols-outlined"><img class="img3" src="send.webp" alt="send"></span>
+        </div>
+    </div>
+    
+</body>
+</html>
